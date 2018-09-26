@@ -1,0 +1,46 @@
+.jumbotron{
+  background: none;
+  text-align: center;
+}
+body{
+  font-family: 'Junge';
+  /*background-color: red;*/
+}
+.card{
+  max-width: 100%;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.card-deck{
+  box-shadow: 0 10px 8px 0 rgba(0,0,0,0.5);
+  text-align: center;
+  width: 400px;
+  height: inherit;
+  margin-left: 100px;
+  transition: 0.5s;
+  border: 1px solid rgba(1,1,1,0.1);
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-deck:hover{
+  transform: translateY(-5px);
+}
+.card-text{
+  word-wrap: break-word;
+}
+.col-sm-6{
+  margin-bottom: 60px;
+}
+.fa{
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(0,0,0);
+}
+.btn{
+  border: 1px solid black;
+  box-shadow: 10px 10px 10px rgb(0,0,0);
+}
