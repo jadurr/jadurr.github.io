@@ -44,3 +44,51 @@ body{
   border: 1px solid black;
   box-shadow: 10px 10px 10px rgb(0,0,0);
 }
+/* Mobile sizes */
+@media only screen and (max-device-width : 420px) and (orientation: portrait) {
+	html, body {
+		font-size: 40px;
+    padding: 0;
+	}
+  body {
+    padding: 80px 20px 40px;
+  }
+	.card-wrapper {
+		display: flex;
+	}
+	.card {
+    min-width: auto;
+    flex-basis: 100%;
+		margin: 10px 20px;
+		padding: 43px 53px;
+		border-radius: 24px;
+		box-shadow: 0px 0px 6px 2px rgba(0,21,64,.14), 0 0 20px 7px rgba(0,21,64,.05);
+	}
+	.hero h1 {
+		font-size: 7em;
+	}
+	.intro-description {
+		font-size: 1.5em;
+	}
+	.skill {
+		min-width: auto;
+		margin: 7px;
+		padding: 18px 28px;
+  	border-radius: 8px;
+    flex-basis: auto;
+	}
+	.skills {
+		padding: 53px;
+	}
+  li {
+    margin: 45px;
+    font-size: 2em;
+  }
+  .img-wrapper {
+    box-shadow: 0px 0px 6px 2px rgba(0,21,64,.14), 0 0 20px 7px rgba(0,21,64,.05);
+    padding: 20px;
+  }
+  .profile-pic {
+    height: 400px;
+  }
+}
