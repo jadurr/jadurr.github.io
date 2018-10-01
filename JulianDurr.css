@@ -2,6 +2,10 @@
   font-size: 72;
   align-items: center;
 }
+.intro{
+  margin-left: auto;
+  margin-right: auto;
+}
 body{
   font-family: 'Junge';
   /*background-color: red;*/
