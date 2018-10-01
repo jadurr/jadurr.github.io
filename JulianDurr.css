@@ -1,3 +1,19 @@
+html, body {
+  height: auto;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  font-size: 18px;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+body{
+  font-family: 'Junge';
+  /*background-color: red;*/
+}
 .hero{
   font-size: 72;
   display:flex;
@@ -13,19 +29,42 @@
   justify-content: center;
   flex-direction: column;
 }
-body{
-  font-family: 'Junge';
-  /*background-color: red;*/
-}
 .part{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .card{
+  height: auto;
+  min-width: 250px;
+  display: inline-flex;
+  align-items: flex-start;
+  border-radius: 8px;
+  justify-content: space-between;
+  border: 1px solid black;
+  flex-direction: column;
+  margin: 7px;
+  font-size: inherit;
+  padding: 23px 33px;
+}
+.card-info{
+  display: inline-flex;
+  height: auto;
+  width: 100%;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.card p, .card h3 {
+	width: 100%;
+	text-align: center;
+	margin: 20px 0;
+  word-wrap: normal;
+}
+.card-wrapper{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  max-width: auto;
 }
 .container{
   display: flex;
@@ -50,7 +89,15 @@ body{
   border: 1px solid black;
   box-shadow: 10px 10px 10px rgb(0,0,0);
 }
-.jumbotron{
+.foot{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.resume{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: white;
 }
 /* Mobile sizes */
