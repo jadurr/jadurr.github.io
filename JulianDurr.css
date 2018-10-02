@@ -5,7 +5,8 @@ html, body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  background-color: #fff;
+  background: linear-gradient(45deg,gold,blue);
+  color: #444;
   font-size: 18px;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -13,6 +14,14 @@ html, body {
 body{
   font-family: 'Junge';
   /*background-color: red;*/
+}
+section{
+  width:100%;
+}
+.screw{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hero{
   font-size: 72;
@@ -66,12 +75,13 @@ body{
   justify-content: center;
   max-width: auto;
 }
-.contact{
+.icons{
   display: flex;
-  align-items: flex-end;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+  margin: auto;
 }
 ul{
   display: flex;
