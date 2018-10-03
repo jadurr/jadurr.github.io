@@ -6,7 +6,7 @@ html, body {
   display: flex;
   flex-direction: column;
   background: inherit;
-  color: #444;
+  color: rgb(0,0,0);
   font-size: 18px;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -95,6 +95,7 @@ ul{
   align-items: center;
 }
 a{
+  color: rgb(0,0,0);
   margin: 5px;
   display: flex;
   justify-content: center;
@@ -103,6 +104,10 @@ a{
   font-size: inherit;
   transition: color .2s ease;
   outline: none;
+  text-decoration: none;
+}
+a:hover{
+  color: rgb(50,50,50);
   text-decoration: none;
 }
 .fa{
