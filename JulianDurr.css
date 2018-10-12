@@ -70,12 +70,14 @@ section{
 	text-align: center;
 	/*margin: 20px 0;*/
   word-wrap: normal;
+  flex-direction: column;
 }
 .card-wrapper{
   display: flex;
   align-items: center;
   justify-content: center;
   max-width: auto;
+  flex-direction: column;
 }
 .icons{
   display: flex;
