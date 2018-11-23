@@ -56,7 +56,7 @@ section{
   flex-direction: column;
   margin: 7px;
   font-size: inherit;
-  padding: 23px 33px;
+  padding: 0px 10px;
 }
 .card-info{
   display: inline-flex;
@@ -64,11 +64,12 @@ section{
   width: 100%;
   align-items: flex-start;
   flex-direction: column;
+  padding: 0px, 0px, 0px, 0px;
 }
 .card p, .card h3, .card h4{
 	width: 100%;
 	text-align: center;
-	/*margin: 20px 0;*/
+	margin: 20px 0;
   word-wrap: normal;
   flex-direction: column;
 }
@@ -98,7 +99,7 @@ ul{
 }
 a{
   color: rgb(0,0,0);
-  margin: 5px;
+  margin: 5px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,7 +107,10 @@ a{
   font-size: inherit;
   transition: color .2s ease;
   outline: none;
+  text-align: center;
   text-decoration: none;
+  word-wrap: normal;
+  flex-direction: column;
 }
 a:hover{
   color: rgb(50,50,50);
