@@ -228,10 +228,10 @@ a:hover{
       z-index: 10;
     }
     &:before {
-      background-color: blue;
+      background-color: $color-main;
     }
     &:after {
-      background-color: red;
+      background-color: $color-main-2;
       animation-delay: .5s;
     }
   }
