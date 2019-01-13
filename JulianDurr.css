@@ -208,7 +208,7 @@ a:hover{
   }
 }
 
-/*Animation*/
+/*Reveal Animation*/
 .has-animation {
   position: relative;
   p, img {
@@ -227,10 +227,10 @@ a:hover{
       z-index: 10;
     }
     &:before {
-      background-color: $color-main;
+      background-color: red;
     }
     &:after {
-      background-color: $color-main-2;
+      background-color: blue;
       animation-delay: .5s;
     }
   }
