@@ -10,7 +10,7 @@ body{
   color: black;
 }
 .background{
-  background-image: url("https://github.com/jadurr/jadurr.github.io/blob/master/Photos/BackgroundPicture.JPG");
+  background-image: url("Photos/BackgroundPicture.JPG");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -19,7 +19,7 @@ body{
   width: 100%;
 }
 .background2{
-  background-image: url("/Users/juliandurr/Desktop/BackgroundPicture2.JPG");
+  background-image: url("Photos/BackgroundPicture2.JPG");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -28,7 +28,7 @@ body{
   width: 100%;
 }
 .background3{
-  background-image: url("/Users/juliandurr/Desktop/BackgroundPicture3.JPG");
+  background-image: url("Photos/BackgroundPicture3.JPG");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
