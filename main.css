@@ -10,7 +10,7 @@ body{
   color: black;
 }
 .background{
-  background-image: url("/Users/juliandurr/Desktop/BackgroundPicture.JPG");
+  background-image: url("https://github.com/jadurr/jadurr.github.io/blob/master/Photos/BackgroundPicture.JPG");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
