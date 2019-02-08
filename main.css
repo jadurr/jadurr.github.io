@@ -10,7 +10,7 @@ body{
   color: black;
 }
 .background{
-  background-image: url("Photos/BackgroundPicture.JPG");
+  background-image: url("Photos/TopOfCanyon.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -19,7 +19,7 @@ body{
   width: 100%;
 }
 .background2{
-  background-image: url("Photos/BackgroundPicture2.JPG");
+  background-image: url("Photos/RestStop.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -28,7 +28,7 @@ body{
   width: 100%;
 }
 .background3{
-  background-image: url("Photos/BackgroundPicture3.JPG");
+  background-image: url("Photos/PathInCanyon.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
