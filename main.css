@@ -21,6 +21,9 @@ h4{
 h5{
 
 }
+a{
+
+}
 p{
 
 }
@@ -28,10 +31,28 @@ div{
 
 }
 .about{
-  color: #3DAF21;
+  background-color: white;
+  color: black;
 }
 .info-wrap{
   border: 1px black solid;
+  background-color: white;
+  padding: auto;
+}
+.extracurricular{
+  background-color: white;
+}
+.leadership{
+  background-color: white;
+}
+.education{
+  background-color: white;
+}
+.work{
+  background-color: white;
+}
+.projects{
+  background-color: white;
 }
 .background{
   background-image: url("Photos/TopOfCanyon.jpg");
